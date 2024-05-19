@@ -1,0 +1,14 @@
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\bin\Debug\net6.0\SALESSYSTEM.Domain.deps.json
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\bin\Debug\net6.0\SALESSYSTEM.Domain.runtimeconfig.json
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\bin\Debug\net6.0\SALESSYSTEM.Domain.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\bin\Debug\net6.0\SALESSYSTEM.Domain.pdb
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.csproj.AssemblyReference.cache
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.AssemblyInfoInputs.cache
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.AssemblyInfo.cs
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\refint\SALESSYSTEM.Domain.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.pdb
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\SALESSYSTEM.Domain.genruntimeconfig.cache
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Domain\obj\Debug\net6.0\ref\SALESSYSTEM.Domain.dll

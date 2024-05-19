@@ -1,0 +1,11 @@
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\bin\Debug\net6.0\SALESSYSTEM.Utilities.deps.json
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\bin\Debug\net6.0\SALESSYSTEM.Utilities.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\bin\Debug\net6.0\SALESSYSTEM.Utilities.pdb
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\SALESSYSTEM.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\SALESSYSTEM.Utilities.AssemblyInfoInputs.cache
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\SALESSYSTEM.Utilities.AssemblyInfo.cs
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\SALESSYSTEM.Utilities.csproj.CoreCompileInputs.cache
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\SALESSYSTEM.Utilities.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\refint\SALESSYSTEM.Utilities.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\SALESSYSTEM.Utilities.pdb
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.Utilities\obj\Debug\net6.0\ref\SALESSYSTEM.Utilities.dll
