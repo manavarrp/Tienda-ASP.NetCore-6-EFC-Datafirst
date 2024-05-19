@@ -29,6 +29,7 @@ namespace SALESSYSTEM.IOC.Extensions
 			services.AddScoped<IEmailService, EmailService>();
 			services.AddScoped<IUtilitiesService, UtilitiesServices>();
 			services.AddScoped<IRolService, RolService>();
+			services.AddScoped<IUserService, UserService>();
 
 			return services;
         
