@@ -2,10 +2,11 @@ using SALESSYSTEM.IOC.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var Configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddInjectionIOC(builder.Configuration);
+builder.Services.AddInjectionIOC(Configuration);
 
 var app = builder.Build();
 
