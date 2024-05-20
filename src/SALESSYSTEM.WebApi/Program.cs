@@ -1,4 +1,5 @@
 using SALESSYSTEM.IOC.Extensions;
+using SALESSYSTEM.WebApi.AutoMapper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,7 @@ var Configuration = builder.Configuration;
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddInjectionIOC(Configuration);
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
 var app = builder.Build();
 

@@ -6,6 +6,7 @@ C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\SAL
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\SALESSYSTEM.WebApi.runtimeconfig.json
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\SALESSYSTEM.WebApi.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\SALESSYSTEM.WebApi.pdb
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\AutoMapper.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Humanizer.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\MessagePack.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\MessagePack.Annotations.dll

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8pd+SJYWrQLk09EG6I2Ba4eCAj551gM4DlEQa8UP5apzmblPDvjZD9UqvfvPfiS/nFDyJqV/JqHvk468+ahBjA==",
+  "dgSpecHash": "A0087Tf8XCagasQWa/QkcfJWnmAsBtxp0vB5ZEOh2+XfCNhctlZS21QxzjM4scEMTITkB0zsw1oc7x+MTtAqEQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\SALESSYSTEM.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mario Navarro\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Mario Navarro\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Mario Navarro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mario Navarro\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

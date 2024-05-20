@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SALESSYSTEM.BLL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b6dd6d23c9f508612a55ed23752395dad4ebdf8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeae751eec057eded72d3a0b74b2fa0fd57b1304")]
 [assembly: System.Reflection.AssemblyProductAttribute("SALESSYSTEM.BLL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SALESSYSTEM.BLL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

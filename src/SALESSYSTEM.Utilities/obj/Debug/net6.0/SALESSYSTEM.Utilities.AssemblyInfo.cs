@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SALESSYSTEM.Utilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b50e1962953b27d9b892a3f5eb607ed7590ffaac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeae751eec057eded72d3a0b74b2fa0fd57b1304")]
 [assembly: System.Reflection.AssemblyProductAttribute("SALESSYSTEM.Utilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SALESSYSTEM.Utilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
