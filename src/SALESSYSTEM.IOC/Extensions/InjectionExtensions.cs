@@ -30,8 +30,10 @@ namespace SALESSYSTEM.IOC.Extensions
 			services.AddScoped<IUtilitiesService, UtilitiesServices>();
 			services.AddScoped<IRolService, RolService>();
 			services.AddScoped<IUserService, UserService>();
+			services.AddScoped<IBussinesService, BusinessService>();
+            services.AddScoped<IgnoreSSL>();
 
-			return services;
+            return services;
         
 		}
 	}

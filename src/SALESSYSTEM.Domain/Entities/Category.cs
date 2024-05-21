@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SALESSYSTEM.Domain.Entities
+﻿namespace SALESSYSTEM.Domain.Entities
 {
     public partial class Category
     {

@@ -25,10 +25,10 @@ namespace SALESSYSTEM.BLL.Implementation
             IQueryable<User> query = await _repository.GetEntityQuery();
             return query.Include(r => r.IdRoleNavigation).ToList();
         }
-        public async Task<User> CreateUser(User user, Stream Photo = null, string NamePhoto = "", string UrlTemplateEmail = "")
+        public async Task<User> CreateUser(User user, string UrlTemplateEmail = "")
         {
-            User userExist = await _repository.Get(u=>u.Email == user.Email);
-            if(userExist != null) 
+            User userExist = await _repository.Get(u => u.Email == user.Email);
+            if (userExist != null)
             {
                 throw new TaskCanceledException("El correo ya existe");
             }
@@ -37,61 +37,44 @@ namespace SALESSYSTEM.BLL.Implementation
             {
                 string password = _utilitiesService.CreatePassword();
                 user.Password = _utilitiesService.ConvertSha256(password);
-                user.PhotoName = NamePhoto;
-
-                if(Photo != null)
-                {
-                    //string urlPhoto = await _utilitiesService.SubirFoto(, )
-
-                }
 
                 User newUser = await _repository.Create(user);
 
-                if(newUser.IdUser == 0) {
+                if (newUser.IdUser == 0)
+                {
                     throw new TaskCanceledException("No se pudo crear el usuario");
                 }
 
-                if(UrlTemplateEmail != "")
+                if (!string.IsNullOrEmpty(UrlTemplateEmail))
                 {
-                    UrlTemplateEmail= UrlTemplateEmail.Replace("[email]", newUser.Email).Replace("[password]",password);
+                    UrlTemplateEmail = UrlTemplateEmail.Replace("[email]", newUser.Email).Replace("[password]", password);
 
                     string htmlEmail = "";
 
                     HttpWebRequest request = (HttpWebRequest)WebRequest.Create(UrlTemplateEmail);
                     HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
-                    if(response.StatusCode == HttpStatusCode.OK)
+                    if (response.StatusCode == HttpStatusCode.OK)
                     {
                         using (Stream dataStream = response.GetResponseStream())
                         {
-                            StreamReader streamReader = null;
-
-                            if(response.CharacterSet == null) {
-                            streamReader = new StreamReader(dataStream);
-                            }
-                            else
+                            using (StreamReader streamReader = response.CharacterSet == null ? new StreamReader(dataStream) : new StreamReader(dataStream, Encoding.GetEncoding(response.CharacterSet)))
                             {
-                                streamReader = new StreamReader(dataStream,Encoding.GetEncoding(response.CharacterSet));
+                                htmlEmail = streamReader.ReadToEnd();
                             }
-
-                            htmlEmail = streamReader.ReadToEnd();
-                            response.Close();
-                            streamReader.Close();
-
                         }
                     }
-                    if(htmlEmail != "")
+
+                    if (!string.IsNullOrEmpty(htmlEmail))
                     {
                         await _emailService.SendEmail(newUser.Email!, "Cuenta Creada", htmlEmail);
                     }
                 }
 
-                IQueryable<User> query = await _repository.GetEntityQuery(u=>u.IdUser == newUser.IdUser);
-                newUser = query.Include(r =>r.IdRoleNavigation).First();
+                IQueryable<User> query = await _repository.GetEntityQuery(u => u.IdUser == newUser.IdUser);
+                newUser = query.Include(r => r.IdRoleNavigation).FirstOrDefault();
 
                 return newUser;
-
-
             }
             catch
             {
@@ -99,7 +82,8 @@ namespace SALESSYSTEM.BLL.Implementation
             }
         }
 
-        public async Task<User> Edituser(User user, Stream Photo = null, string NamePhoto = "")
+
+        public async Task<User> Edituser(User user)
         {
             User userExist = await _repository.Get(u => u.Email == user.Email && u.IdUser != user.IdUser);
             if (userExist != null)
@@ -117,16 +101,7 @@ namespace SALESSYSTEM.BLL.Implementation
                 updateUser.Email = user.Email;
                 updateUser.Phone = user.Phone;
                 updateUser.IdRole = user.IdRole;
-
-                if(updateUser.PhotoName == "")
-                {
-                    updateUser.PhotoName = NamePhoto;
-                }
-
-                if(Photo != null)
-                {
-
-                }
+                updateUser.IsActive = user.IsActive;
 
                 bool res = await _repository.Update(updateUser);
                 if(!res)
@@ -145,24 +120,24 @@ namespace SALESSYSTEM.BLL.Implementation
             }
 
         }
-        public async Task<bool> Deleteuser(int IdUser)
+      
+        public async Task<bool> DeleteUser(int IdUser)
         {
             try
             {
                 User userExist = await _repository.Get(u => u.IdUser == IdUser);
-                if (userExist != null) throw new TaskCanceledException("El usuario no encontrado");
+                if (userExist == null) throw new TaskCanceledException("El usuario no fue encontrado");
 
-                bool res = await _repository.Remove(userExist!);
+                bool res = await _repository.Remove(userExist);
 
                 return res;
-                
             }
             catch
             {
                 throw;
             }
-
         }
+
 
         public async Task<User> GetByCrendentials(string email, string password)
         {

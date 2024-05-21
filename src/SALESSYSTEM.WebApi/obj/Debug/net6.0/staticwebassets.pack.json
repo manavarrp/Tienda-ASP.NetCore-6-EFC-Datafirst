@@ -49,6 +49,14 @@
       "PackagePath": "staticwebassets\\js\\sb-admin-2.min.js"
     },
     {
+      "Id": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\Bussines_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\Bussines_Index.js"
+    },
+    {
+      "Id": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\User_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\User_Index.js"
+    },
+    {
       "Id": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\chart-bar-demo.js",
       "PackagePath": "staticwebassets\\js\\vistas\\chart-bar-demo.js"
     },

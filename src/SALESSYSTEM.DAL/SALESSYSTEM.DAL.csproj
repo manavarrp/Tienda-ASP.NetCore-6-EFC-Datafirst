@@ -10,4 +10,8 @@
     <ProjectReference Include="..\SALESSYSTEM.Domain\SALESSYSTEM.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Context\" />
+  </ItemGroup>
+
 </Project>

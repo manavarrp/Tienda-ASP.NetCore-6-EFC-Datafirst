@@ -9,6 +9,7 @@
         public int? IdRole { get; set; }
         public string? NameRole { get; set; }
         public string? PhotoUrl { get; set; }
+        public string? PhotoName { get; set; }
         public int? IsActive { get; set; }
     }
 }

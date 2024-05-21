@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+KB21CoKNTWm8lA1mviPEiXMMijXzl1UM3Q5mb21KS0=",
+  "Hash": "0Jba1LjSneBd32BGaQ05sJuKEh15mDdSFXIz14vfYVw=",
   "Source": "SALESSYSTEM.WebApi",
   "BasePath": "_content/SALESSYSTEM.WebApi",
   "Mode": "Default",
@@ -264,6 +264,25 @@
       "OriginalItemSpec": "wwwroot\\js\\sb-admin-2.min.js"
     },
     {
+      "Identity": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\Bussines_Index.js",
+      "SourceId": "SALESSYSTEM.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\",
+      "BasePath": "_content/SALESSYSTEM.WebApi",
+      "RelativePath": "js/vistas/Bussines_Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vistas\\Bussines_Index.js"
+    },
+    {
       "Identity": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\chart-bar-demo.js",
       "SourceId": "SALESSYSTEM.WebApi",
       "SourceType": "Discovered",
@@ -319,6 +338,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\vistas\\datatables-demo.js"
+    },
+    {
+      "Identity": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\User_Index.js",
+      "SourceId": "SALESSYSTEM.WebApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\",
+      "BasePath": "_content/SALESSYSTEM.WebApi",
+      "RelativePath": "js/vistas/User_Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\vistas\\User_Index.js"
     },
     {
       "Identity": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\scss\\_buttons.scss",

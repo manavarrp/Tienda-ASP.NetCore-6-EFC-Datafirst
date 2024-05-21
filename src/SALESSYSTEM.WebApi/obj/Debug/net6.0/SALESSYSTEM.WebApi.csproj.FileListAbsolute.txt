@@ -64,7 +64,6 @@ C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Sys
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\System.Composition.Runtime.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\System.Composition.TypedParts.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
@@ -256,3 +255,10 @@ C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\obj\Debug\net6.0\ref
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\obj\Debug\net6.0\SALESSYSTEM.WebApi.pdb
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\obj\Debug\net6.0\SALESSYSTEM.WebApi.genruntimeconfig.cache
 C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\obj\Debug\net6.0\ref\SALESSYSTEM.WebApi.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Projects\SALES SYSTEM\SALESSYSTEM\src\SALESSYSTEM.WebApi\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

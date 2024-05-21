@@ -5,10 +5,25 @@ var builder = WebApplication.CreateBuilder(args);
 
 var Configuration = builder.Configuration;
 
+builder.Services.AddHttpClient("IgnoreSSL", client =>
+{
+    // Opcionalmente, configurar la base address o headers aquí si es necesario
+})
+.ConfigurePrimaryHttpMessageHandler(() =>
+{
+    return new HttpClientHandler
+    {
+        ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true
+    };
+});
+
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddInjectionIOC(Configuration);
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+
+    
 
 var app = builder.Build();
 

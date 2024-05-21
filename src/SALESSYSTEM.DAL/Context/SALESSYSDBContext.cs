@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SALESSYSTEM.Domain;
 using SALESSYSTEM.Domain.Entities;
 
 namespace SALESSYSTEM.DAL.Context
 {
-	public partial class SALESSYSDBContext:DbContext
-	{
+    public partial class SALESSYSDBContext : DbContext
+    {
         public SALESSYSDBContext()
         {
         }
@@ -13,6 +14,12 @@ namespace SALESSYSTEM.DAL.Context
             : base(options)
         {
         }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.EnableSensitiveDataLogging();
+        }
+
 
         public virtual DbSet<Business> Businesses { get; set; } = null!;
         public virtual DbSet<Category> Categories { get; set; } = null!;
@@ -27,9 +34,7 @@ namespace SALESSYSTEM.DAL.Context
         public virtual DbSet<SaleDetail> SaleDetails { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-        }
+      
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -463,15 +468,7 @@ namespace SALESSYSTEM.DAL.Context
                     .IsUnicode(false)
                     .HasColumnName("phone");
 
-                entity.Property(e => e.PhotoName)
-                    .HasMaxLength(100)
-                    .IsUnicode(false)
-                    .HasColumnName("photoName");
-
-                entity.Property(e => e.PhotoUrl)
-                    .HasMaxLength(500)
-                    .IsUnicode(false)
-                    .HasColumnName("photoUrl");
+             
 
                 entity.Property(e => e.RegistrationDate)
                     .HasColumnType("datetime")

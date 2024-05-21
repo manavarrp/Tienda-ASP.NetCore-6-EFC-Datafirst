@@ -15,8 +15,6 @@ namespace SALESSYSTEM.Domain.Entities
         public string? Email { get; set; }
         public string? Phone { get; set; }
         public int? IdRole { get; set; }
-        public string? PhotoUrl { get; set; }
-        public string? PhotoName { get; set; }
         public string? Password { get; set; }
         public bool? IsActive { get; set; }
         public DateTime? RegistrationDate { get; set; }

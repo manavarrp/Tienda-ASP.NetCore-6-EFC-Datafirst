@@ -23,11 +23,11 @@ namespace SALESSYSTEM.BLL.Implementation
 
                 Dictionary<string, string> Config = query.ToDictionary(keySelector: c => c.Property, elementSelector: c => c.Value);
 
-                var credentials = new NetworkCredential(Config["correo"], Config["clase"]);
+                var credentials = new NetworkCredential(Config["correo"], Config["clave"]);
 
                 var email = new MailMessage()
                 {
-                    From =new MailAddress(Config["correo"], Config["alias"]),
+                    From = new MailAddress(Config["correo"], Config["alias"]),
                     Subject = Subject,
                     Body = MessageEmail,
                     IsBodyHtml = true
@@ -35,23 +35,30 @@ namespace SALESSYSTEM.BLL.Implementation
 
                 email.To.Add(new MailAddress(EmailDestination));
 
-                var clientServer = new SmtpClient()
+                // Configurar el cliente SMTP
+                SmtpClient clientServer = new SmtpClient()
                 {
                     Host = Config["host"],
                     Port = int.Parse(Config["port"]),
+                    Credentials = credentials,
                     DeliveryMethod = SmtpDeliveryMethod.Network,
                     UseDefaultCredentials = false,
                     EnableSsl = true
                 };
 
+                // Ignorar errores de certificado SSL (solo para desarrollo)
+                ServicePointManager.ServerCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
+
                 clientServer.Send(email);
 
                 return true;
             }
-            catch  
+            catch (Exception ex)
             {
+                Console.WriteLine($"Error sending email: {ex}");
                 return false;
             }
         }
+
     }
 }

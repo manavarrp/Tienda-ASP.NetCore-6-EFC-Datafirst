@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SALESSYSTEM.IOC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eeae751eec057eded72d3a0b74b2fa0fd57b1304")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79451ec912ee564e4138b7af2099befb8e1903d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("SALESSYSTEM.IOC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SALESSYSTEM.IOC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
