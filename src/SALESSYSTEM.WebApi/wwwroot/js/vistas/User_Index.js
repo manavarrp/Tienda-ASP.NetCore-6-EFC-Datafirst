@@ -17,6 +17,7 @@ $(document).ready(function () {
             return response.ok ? response.json() : Promise.reject(response);
         })
         .then(responseJson => {
+            console.log(responseJson)
             if (responseJson.length > 0) {
                 responseJson.forEach((item) => {
                     $("#cboRol").append(
@@ -59,7 +60,6 @@ $(document).ready(function () {
             },
             {
                 "defaultContent": '<button class="btn btn-primary btn-editar btn-sm mr-2"><i class="fas fa-pencil-alt"></i></button>' +
-                '<button  class="btn btn-danger btn-remove btn-sm mr-2"><i class="fas fa-trash-alt></i></button>'+
                     '<button class="btn btn-danger btn-remove btn-sm"><i class="fas fa-trash-alt"></i></button>',
                 "orderable": false,
                 "searchable": false,

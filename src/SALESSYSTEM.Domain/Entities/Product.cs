@@ -11,8 +11,6 @@ namespace SALESSYSTEM.Domain.Entities
         public string? Description { get; set; }
         public int? IdCategory { get; set; }
         public int? Stock { get; set; }
-        public string? ImageUrl { get; set; }
-        public string? ImageName { get; set; }
         public decimal? Price { get; set; }
         public bool? IsActive { get; set; }
         public DateTime? RegistrationDate { get; set; }

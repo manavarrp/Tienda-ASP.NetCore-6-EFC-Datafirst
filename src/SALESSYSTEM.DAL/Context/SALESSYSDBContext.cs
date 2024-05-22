@@ -253,15 +253,7 @@ namespace SALESSYSTEM.DAL.Context
 
                 entity.Property(e => e.IdCategory).HasColumnName("idCategory");
 
-                entity.Property(e => e.ImageName)
-                    .HasMaxLength(100)
-                    .IsUnicode(false)
-                    .HasColumnName("imageName");
 
-                entity.Property(e => e.ImageUrl)
-                    .HasMaxLength(500)
-                    .IsUnicode(false)
-                    .HasColumnName("imageUrl");
 
                 entity.Property(e => e.IsActive).HasColumnName("isActive");
 

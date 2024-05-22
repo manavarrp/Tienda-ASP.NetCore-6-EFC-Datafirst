@@ -9,7 +9,7 @@ namespace SALESSYSTEM.WebApi.Models.ViewModels
         public string? Brand { get; set; }
         public string? Description { get; set; }
         public int? IdCategory { get; set; }
-        public string? NameCatgory { get; set; }
+        public string? NameCategory { get; set; }
         public int? Stock { get; set; }
         public string? ImageUrl { get; set; }
         public string? Price { get; set; }

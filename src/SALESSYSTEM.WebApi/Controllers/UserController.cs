@@ -51,18 +51,12 @@ namespace SALESSYSTEM.WebApi.Controllers
 
             try
             {
-                // Log para depuración
-                Console.WriteLine("Received model: " + JsonConvert.SerializeObject(model));
-
-                // Verificar que el modelo no es nulo
                 if (model == null)
                 {
                     throw new ArgumentNullException(nameof(model), "El modelo de usuario no puede ser nulo");
                 }
 
               //  string urlTemplateEmail = $"{this.Request.Scheme}://{this.Request.Host}/Template/SendPassword?email=[email]&password=[password]";
-
-
                User new_user = await _service.CreateUser(_mapper.Map<User>(model));
 
                // string htmlContent = await _ignore.GetHtmlFromUrl(urlTemplateEmail);

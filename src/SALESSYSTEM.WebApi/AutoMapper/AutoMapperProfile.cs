@@ -41,9 +41,10 @@ namespace SALESSYSTEM.WebApi.AutoMapper
 
             #region Product
             CreateMap<Product, VMProduct>()
-                .ForMember(x => x.IsActive, x => x.MapFrom(y => y.IsActive == true ? 1 : 0))
-                .ForMember(x => x.NameCatgory, x => x.MapFrom(y => y.IdCategoryNavigation!.Description))
-                .ForMember(x => x.Price, x => x.MapFrom(y => Convert.ToString(y.Price!.Value, new CultureInfo("es-CO"))));
+                 .ForMember(x => x.IsActive, x => x.MapFrom(y => y.IsActive == true ? 1 : 0))
+                 .ForMember(x => x.NameCategory, x => x.MapFrom(y => y.IdCategoryNavigation!.Description))
+                 .ForMember(x => x.Price, x => x.MapFrom(y => Convert.ToString(y.Price!.Value, new CultureInfo("es-CO"))));
+
 
             CreateMap<VMProduct, Product > ()
                 .ForMember(x => x.IsActive, x => x.MapFrom(y => y.IsActive == 1 ? true : false))

@@ -53,6 +53,14 @@
       "PackagePath": "staticwebassets\\js\\vistas\\Bussines_Index.js"
     },
     {
+      "Id": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\Category_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\Category_Index.js"
+    },
+    {
+      "Id": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\Product_Index.js",
+      "PackagePath": "staticwebassets\\js\\vistas\\Product_Index.js"
+    },
+    {
       "Id": "C:\\Projects\\SALES SYSTEM\\SALESSYSTEM\\src\\SALESSYSTEM.WebApi\\wwwroot\\js\\vistas\\User_Index.js",
       "PackagePath": "staticwebassets\\js\\vistas\\User_Index.js"
     },
